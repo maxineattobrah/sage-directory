@@ -1,0 +1,27 @@
+.DS_Store
+__pycache__/
+venv/
+test-package.ipynb
+
+
+
+# PyPi
+build/*
+dist/*
+sage_directory.egg-info/*
+pythonenv3.8/*
+*.pyc
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+.installed.cfg
+*.egg
+MANIFEST
