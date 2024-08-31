@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 from pathlib import Path
 import os
 
-VERSION = "0.0.6"
+VERSION = "0.0.8"
 # readme information
 dir = Path(__file__).absolute().parent
 with open(os.path.join(dir, "README.md")) as file: 
@@ -18,7 +18,7 @@ except FileNotFoundError:
     REQUIREMENTS =[]
 
 
-DESCRIPTION = "Sage is a python package that offers a detailed overview of folder contents and streamlines the process of copying and managing directories."
+DESCRIPTION = "sage-directory is a python package that offers a detailed overview of folder contents and streamlines the process of copying and managing directories."
 LONG_DESCRIPTION = README
 
 
@@ -26,7 +26,7 @@ LONG_DESCRIPTION = README
 
 # setting up
 setup(
-    name="sage_directory",
+    name="sage-directory",
     version=VERSION,
     author="Maxine Attobrah",
     author_email="maxineattobrah@gmail.com",
