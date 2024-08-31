@@ -30,7 +30,7 @@ setup(
     version=VERSION,
     author="Maxine Attobrah",
     author_email="maxineattobrah@gmail.com",
-    url = "https://github.com/maxineattobrah/Sage",
+    url = "https://github.com/maxineattobrah/sage-directory",
     description=DESCRIPTION,
 
     long_description=LONG_DESCRIPTION,
